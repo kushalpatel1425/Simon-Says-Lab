@@ -1,0 +1,97 @@
+*,*:before,*:after{
+    margin: 0;
+    padding:0 ;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    gap: 20px;
+
+}
+.cell{
+    background-color:aliceblue;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    color:azure;
+    transition: 0.5s;
+}
+/*cell 1*/
+
+.cell:nth-child(1){
+    background-color:cornflowerblue;
+
+}
+.cell:nth-child(1):hover, .on{
+    transform: scale(1.05);
+}
+.cell:nth-child(1):active,.on{
+    background-color:ghostwhite;
+
+}
+
+/*cell 2*/
+
+.cell:nth-child(2){
+    background-color:blueviolet;
+
+}
+.cell:nth-child(2):hover, .on{
+    transform: scale(1.05);
+}
+.cell:nth-child(2):active,.on{
+    background-color:#2c3e50;
+
+}
+/*Cell 3*/
+.cell:nth-child(3){
+    background-color:brown;
+
+}
+.cell:nth-child(3):hover, .on{
+    transform: scale(1.05);
+}
+.cell:nth-child(3):active,.on{
+    background-color:chocolate;
+
+}
+/*Cell 4*/
+.cell:nth-child(4){
+    background-color:darkcyan;
+
+}
+.cell:nth-child(4):hover, .on{
+    transform: scale(1.05);
+}
+.cell:nth-child(4):active,.on{
+    background-color:crimson;
+
+}
+button{
+    background-color:burlywood;
+    color:darksalmon;
+    padding: 1em;
+}
+button:hover{
+    background-color:greenyellow;
+}
